@@ -130,7 +130,6 @@ nav > ul > li > div ul > li:hover > a {
 }
 /*Homepage*/
 
-
 /*Picture With Text!*/
 div {
     border: 3px solid #EBE8E4;
@@ -158,33 +157,3 @@ div {
     width: 64px;
 }
 /*End Picture with text*/
-
-/*Gradeints*/
-#first_grade{
-    background: rgba(210,255,82,1); /*Gradients*/
-    background: -moz-linear-gradient(left, rgba(210,255,82,1) 0%, rgba(145,232,66,1) 100%);
-    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(210,255,82,1)), color-stop(100%, rgba(145,232,66,1)));
-    background: -webkit-linear-gradient(left, rgba(210,255,82,1) 0%, rgba(145,232,66,1) 100%);
-    background: -o-linear-gradient(left, rgba(210,255,82,1) 0%, rgba(145,232,66,1) 100%);
-    background: -ms-linear-gradient(left, rgba(210,255,82,1) 0%, rgba(145,232,66,1) 100%);
-    background: linear-gradient(to right, rgba(210,255,82,1) 0%, rgba(145,232,66,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d2ff52', endColorstr='#91e842', GradientType=1 );
-        /*End Gradient Background*/
-    height: auto;
-    margin: 20px;
-}
-
-.first_grade_left{
-    color: whitesmoke;
-    font-size: 36px;
-    margin: 15px;
-}
-
-.first_grade_left_p{
-    color: white;
-    font-size: 20px;
-    margin: 15px;
-    max-width: 45%;
-
-}
-/*End Gradeints*/
