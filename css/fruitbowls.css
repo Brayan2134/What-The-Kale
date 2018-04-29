@@ -140,51 +140,74 @@ div {
 .img1 {
     float: right;
     margin: 25px;
+    width: 100%;
+    height: auto;
+    margin: 20px;
+    max-width: 45%;
 }
     
 .clearfix {
     overflow: auto;
+    border: none;
 }
     
 .img2 {
     float: left;
-    margin: 25px;
+    margin: 20px;
+    width: 100%;
+    height: auto;
+    max-width: 45%;
 }
 
-.img3{
+.img3{ /*Leaf Img*/
     float: right;
     margin: 1px;
     height: 64px;
     width: 64px;
 }
-/*End Picture with text*/
+/*End Picture With Text*/
 
-/*Gradeints*/
-#first_grade{
-    background: rgba(210,255,82,1); /*Gradients*/
-    background: -moz-linear-gradient(left, rgba(210,255,82,1) 0%, rgba(145,232,66,1) 100%);
-    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(210,255,82,1)), color-stop(100%, rgba(145,232,66,1)));
-    background: -webkit-linear-gradient(left, rgba(210,255,82,1) 0%, rgba(145,232,66,1) 100%);
-    background: -o-linear-gradient(left, rgba(210,255,82,1) 0%, rgba(145,232,66,1) 100%);
-    background: -ms-linear-gradient(left, rgba(210,255,82,1) 0%, rgba(145,232,66,1) 100%);
-    background: linear-gradient(to right, rgba(210,255,82,1) 0%, rgba(145,232,66,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d2ff52', endColorstr='#91e842', GradientType=1 );
-        /*End Gradient Background*/
-    height: auto;
-    margin: 20px;
-}
+    /*Box's*/
+    #box_right_green{
+        background: #11998e; /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #11998e, #38ef7d); /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #11998e, #38ef7d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        border: none;
+        width: 80%;
+        height: 500px;
+        margin: 24px;
+        text-align: left;
+    }
 
-.first_grade_left{
-    color: whitesmoke;
-    font-size: 36px;
-    margin: 15px;
-}
+        .box_right_green_h1{
+            color: white;
+        }
 
-.first_grade_left_p{
-    color: white;
-    font-size: 20px;
-    margin: 15px;
-    max-width: 45%;
+        .box_right_green_p{
+            color: white;
+            font-size: 24px;
+            max-width: 45%;
+        }
 
-}
-/*End Gradeints*/
+
+    #box_left_pink{
+        background: #800080;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #ffc0cb, #800080);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #ffc0cb, #800080); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        width: 80%;
+        height: auto;
+        margin: 20px;
+        text-align: right;
+    }
+
+        .box_left_pink_h1{
+            color: white;
+            text-align: right;
+        }
+
+        .box_left_pink_p{
+            color: white;
+            font-size: 24px;
+            text-align: right;
+        }
+    /*End Box's*/

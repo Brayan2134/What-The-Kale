@@ -135,23 +135,24 @@ div {
     border: 3px solid #EBE8E4;
     padding: 5px;
 }
-    /*Box's*/
-    #box_right{
-        width: 100%;
-        height: auto;
-        margin: 20px;
-        text-align: left;
-    }
+        /*Box's*/
+        #box_right{
+            width: 100%;
+            height: auto;
+            margin: 20px;
+            text-align: left;
+        }
 
-    #box_left{
-        width: 100%;
-        height: auto;
-        margin: 20px;
-        text-align: right;
-    }
-    /*End Box's*/
+        #box_left{
+            width: 100%;
+            height: auto;
+            margin: 20px;
+            text-align: right;
+        }
+        /*End Box's*/
     
 .img1 {
+    border: none;
     float: right;
     margin: 25px;
     width: 100%;
