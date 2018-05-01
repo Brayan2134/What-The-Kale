@@ -130,6 +130,7 @@ nav > ul > li > div ul > li:hover > a {
 }
 /*Homepage*/
 
+
 /*Picture With Text!*/
 div {
     border: 3px solid #EBE8E4;
@@ -158,31 +159,5 @@ div {
 }
 /*End Picture with text*/
 
-/*Heading*/
-#menuentry{
-    background-color: darkgrey;
-    max-width: 89%;
-    margin: 24px;
-    border-radius: 6px;
-}
-
-.menuenth1{
-    color: whitesmoke;
-    margin: 15px;
-}
-
-.menuentp{
-    color: whitesmoke;
-    margin: 15px;
-    font-size: 18px;
-    max-width: 50%;
-}
-
-.menuentp1{
-    color: whitesmoke;
-    margin: 15px;
-    font-size: 18px;
-    max-width: 50%;
-    text-indent: 2%;
-}
-/*Heading*/
+/*Form*/
+/*End Form*/
