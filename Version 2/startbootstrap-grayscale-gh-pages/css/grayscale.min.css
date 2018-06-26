@@ -49,14 +49,14 @@ a:focus,a:hover{
     margin-bottom:0;
     text-transform:uppercase;
     border-bottom:1px solid rgba(255,255,255,.3);
-    background-color:#000
+    background-color:#fff;
 }
 
 #mainNav .navbar-toggler{
     font-size:14px;
     padding:11px;
-    color:white;
-    border:1px solid #fff
+    color:black;
+    border:1px solid black;
 }
 
 #mainNav .navbar-brand{
@@ -64,7 +64,7 @@ a:focus,a:hover{
 }
 
 #mainNav a{
-    color:white;
+    color:black;
 }
 
 #mainNav .navbar-nav .nav-item{
@@ -96,7 +96,7 @@ a:focus,a:hover{
     padding-top:10px;
     padding-bottom:10px;
     border-bottom:1px solid rgba(255,255,255,.3);
-    background:#000
+    background:#fff;
 }
 
 #mainNav .nav-link.active{
