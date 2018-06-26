@@ -36,6 +36,12 @@
             background: linear-gradient(to right, #ffdde1, #ee9ca7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
         }
+
+        #menuitem3{
+            background: #aa4b6b;  /* fallback for old browsers */
+            background: -webkit-linear-gradient(to left, #3b8d99, #6b6b83, #aa4b6b);  /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to left, #3b8d99, #6b6b83, #aa4b6b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        }
     </style>
 
 </head>
@@ -133,15 +139,36 @@
                 </div><!--End Menu Entry-->
 
                 <!--Menu Entry 2-->
-                <div class="col-lg-12 text-white" id="menuitem2">
-                    <!--Left Side IMG-->
-                    <div class="col-lg-6">
-                    </div>
-                    <!--Right Side Content-->
-                    <div class="col-lg-6">
+                <div class="col-lg-12" id="menuitem2">
+                    <!--Left Side Content-->
+                    <div class="col-lg-6 mt-3">
                         <h2>Peachy Keen!</h2>
+                        <p class="text-secondary">
+                            Regular - $6.49 <br>
+                            Large - $7.49
+                        </p>
+                        <p class="text-justify text-center">
+                            Made with
+                            Peach, strawberry, pineapple, mango.<br>
+                            Many people call it the morning smoothie,
+                            for a variety of reasons.
+                            It provides a sweet smooth taste
+                            with a small kick (no caffeine)
+                            to help the body naturally wake up
+                            and tackle anything!
+                        </p>
+                    </div>
+                    <!--Right Side IMG-->
+                    <div class="col-lg-6">
                     </div>
                 </div><!--End Container-->
+
+                <!--Menu Item 3-->
+                <div class="col-lg-12" id="menuitem3">
+                    <div class="col-lg-6 mt-3">
+                        <h2 class="text-white">Berry Smooth!</h2>
+                    </div>
+                </div>
             </div><!--Global Settings-->
         </div>
     </section>
