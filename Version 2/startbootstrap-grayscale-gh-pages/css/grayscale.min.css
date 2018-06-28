@@ -104,7 +104,7 @@ a:focus,a:hover{
 }
 
 #mainNav .nav-link.active:hover{
-    color:white;
+    color:black;
 }
 }
 
@@ -273,6 +273,7 @@ a:focus,a:hover{
         width: 50%;
         height: 50%;
     }
+
     @media screen and (max-width: 640px) {
         .carousel-inner img{
             width: 100%;
