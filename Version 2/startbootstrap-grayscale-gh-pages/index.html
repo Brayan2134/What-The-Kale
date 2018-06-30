@@ -32,6 +32,11 @@
       width: 140px;
       margin-top:0; 
     }
+
+    #menu_right{
+      background-color: black;
+      color: white;
+    }
   </style>
 
 </head>
@@ -55,10 +60,7 @@
             <a class="nav-link" href="menu/sbmenu.html">Full Menu</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#smoothies">Smoothies</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#smoothiebowls">Smoothie Bowls</a>
+            <a class="nav-link js-scroll-trigger" href="#smoothies">Smoothies/Bowls</a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
@@ -86,6 +88,7 @@
   </header>
 
   <!--About Section-->
+  <!--Hero-->
   <section id="about" class="text-center">
     <div class="container">
       <div class="row">
@@ -102,11 +105,13 @@
         </div>
       </div>
     </div>
+
+    <!--Important News-->
     <div class="container">
       <div class="row">
         <div class="col-lg-8 mx-auto">
           <h1 class="text-danger">IMPORTANT NEWS:</h1>
-          <p class="text-uppercase">
+          <p class="text-uppercase text-justify">
             - We
             <b>ARE NOT</b>
             using Salem tap water for our products! <br>
@@ -117,6 +122,11 @@
             shall be 6AM - Noon.
           </p>
         </div>
+
+        <!--Little LIne-->
+        <div class="col-lg-12">
+          <hr>
+        </div>
       </div>
     </div>
   </section>
@@ -124,59 +134,50 @@
   <!--Smoothie Section-->
   <section id="smoothies" class="text-center">
     <div class="container">
-      <div class="col-lg-8 mx-auto">
-        <h2>Our Smoothies.</h2>
-        <p>Our smoothies have the best combination of sweet and boldness! You can choose any of our products and be SATISFIED
-            with our product! Want another one?
-        </p>
-        <p>You can WITH CONFIDENCE! We also pack as much nutrition as possible into our Smoothies so that in all, you can have the best experience!
-        </p>
-
-        <!--Don't Use-->
-        <!--
-        <p>Click <a href="cup/scup.html">here for some coupons!</a></p>
-        -->
-
-        <h2>Our Recommendations!</h2>
-        <p>We know that every person has a unique style of how they would like to eat their food.
-          Some may find it hard to find the perfect smoothie, so we're here to help with that!
-          These smoothies found below is a combination of everyone's favorite smoothie,
-          and smoothies that we believe every new customer should try!
-        </p>
-                  <a href="formpage.html" class="btn btn-default btn-lg">
-              <span class="network-name">Extended Menu</span>
-            </a>
-      </div>
-    </div>
-  </section>
-
-  <!--Smoothiebowl Section-->
-  <section id="smoothiebowls" class="text-center">
-    <div class="container">
       <div class="row">
-        <div class="col-lg-8 mx-auto">
-          <h2>Our smoothiebowls:</h2>
-          <p>Our Smoothie Bowl is not like any other Fruit Bowl you'll find anywhere else.
-              Berry Smooth has taken the liberty to look out for our consumer.
-              We look out by taking what's good about Fruit Bowls and making them like never before.
-              We mix exotic visual styles with rich creamy tastes that will leave you begging for more.
-              Because you can't just have one, we make sure every Fruit Bowl has the best balance of taste and nutrition.
-            </p>
-          <!--
-          <p>I know you love coupons! <a href="cup/sbcup.html">Click me for some!</a></p>
-          -->
-          <div class="col-lg-12">
+
+        <!--Left Side-->
+        <div class="col-lg-6 mt-5">
+          <h1 class="text-center">Our Smoothies.</h1>
+          <p class="text-justify">Our smoothies have the best combination of sweet and boldness! You can choose any of our products and be SATISFIED
+            with our product! Want another one?
+            You can WITH CONFIDENCE! We also pack as much nutrition as possible into our Smoothies so that in all, you can have the best experience!
+          </p>
+
+          <!--Top Items-->
+          <h2>Our Recommendations!</h2>
+          <p class="text-justify">We know that every person has a unique style of how they would like to eat their food.
+            Some may find it hard to find the perfect smoothie, so we're here to help with that!
+            These smoothies found below is a combination of everyone's favorite smoothie,
+            and smoothies that we believe every new customer should try!
+          </p>
+          <a href="formpage.html" class="btn btn-default btn-lg">
+            <span class="network-name">Extended Menu</span>
+          </a>
+        </div>
+
+        <!--Right Side-->
+        <div class="col-lg-6 mt-5" id="menu_right">
+          <h1 class="text-center">Our smoothiebowls:</h1>
+          <p class="text-justify">Our Smoothie Bowl is not like any other Fruit Bowl you'll find anywhere else.
+            Berry Smooth has taken the liberty to look out for our consumer.
+            We look out by taking what's good about Fruit Bowls and making them like never before.
+            We mix exotic visual styles with rich creamy tastes that will leave you begging for more.
+            Because you can't just have one, we make sure every Fruit Bowl has the best balance of taste and nutrition.
+          </p>
+
+          <!--Top Items-->
           <h2>Our Top Items!</h2>
           <p>Items you see below are our most popular items!
             We have a perfect combination of sweet smoothies with unmatched perfection and craftsmanship
             making these Smoothie Bowls that is just not found anywhere else!
           </p>
           <a href="formpage.html" class="btn btn-default btn-lg">
-              <span class="network-name">Extended Menu</span>
-            </a>
-        </div>
-        <div class="col-lg-12 bg-dark">
-        <div id="demo" class="carousel slide" data-ride="carousel">
+            <span class="network-name">Extended Menu</span>
+          </a>
+
+          <!--Carousel-->
+          <div id="demo" class="carousel slide" data-ride="carousel">
             <ul class="carousel-indicators">
               <li data-target="#demo" data-slide-to="0" class="active"></li>
               <li data-target="#demo" data-slide-to="1"></li>
@@ -199,32 +200,25 @@
                 <img src="img/smoothiebowls/car3.jpg" alt="Car3" width="400" height="600">
               </div>
               <div class="carousel-item">
-                  <img src="img/smoothiebowls/car4.jpg" alt="Car4" width="400" height="600">
+                <img src="img/smoothiebowls/car4.jpg" alt="Car4" width="400" height="600">
               </div>
               <div class="carousel-item">
-                  <img src="img/smoothiebowls/car5.jpg" alt="Car5" width="400" height="600">
-                </div>
-                <div class="carousel-item">
-                    <img src="img/smoothiebowls/car6.jpg" alt="Car6" width="400" height="600">
-                    </div>   
-                  <div class="carousel-item">
-                      <img src="img/smoothiebowls/car7.jpg" alt="Car7" width="400" height="600">
-                      </div>   
-                    <div class="carousel-item">
-                        <img src="img/smoothiebowls/car8.jpg" alt="Car8" width="400" height="600">
-                      </div>
-                      <div class="carousel-item">
-                          <img src="img/smoothiebowls/car9.jpg" alt="Car9" width="400" height="600">
-                          <!--
-                          <div class="carousel-caption">
-                            <h3>Image 3</h3>
-                            <p>SOME TEXT HERE</p>
-                          </div>
-                        --> 
-                        </div>
-                      
-                        </div>
+                <img src="img/smoothiebowls/car5.jpg" alt="Car5" width="400" height="600">
+              </div>
+              <div class="carousel-item">
+                <img src="img/smoothiebowls/car6.jpg" alt="Car6" width="400" height="600">
+              </div>   
+              <div class="carousel-item">
+                <img src="img/smoothiebowls/car7.jpg" alt="Car7" width="400" height="600">
+              </div>   
+              <div class="carousel-item">
+                <img src="img/smoothiebowls/car8.jpg" alt="Car8" width="400" height="600">
+              </div>
+              <div class="carousel-item">
+                <img src="img/smoothiebowls/car9.jpg" alt="Car9" width="400" height="600">
+              </div>        
             </div>
+          </div>
             <a class="carousel-control-prev" href="#demo" data-slide="prev">
               <span class="carousel-control-prev-icon"></span>
             </a>
@@ -233,7 +227,7 @@
             </a>
           </div>
       </div>
-    </div> 
+    </div>
   </section>
 
  
@@ -244,7 +238,7 @@
       <div class="row">
 
         <div class="col-lg-12 text-center">
-          <h2>Contact Us!</h2>
+          <h1>Contact Us!</h1>
           <p>Feel free to contact us online or in person! We can answer all your questions, comments, or concerns
               with the highest level of professionalism!
           </p>
