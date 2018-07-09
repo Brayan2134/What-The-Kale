@@ -240,12 +240,14 @@ a:focus,a:hover{
             }}
             
             footer{
-                padding:50px 0
+                padding:50px 0;
+                background-color: black;
             }
             
             footer p{
                 font-size:14px;
-                margin:0
+                margin:0;
+                color: white;
             }
             
             ::-moz-selection{
@@ -280,3 +282,8 @@ a:focus,a:hover{
             height: 100%;
         }
     }
+
+#foot-link{
+    color: mediumspringgreen;
+}
+
