@@ -41,6 +41,10 @@ hr{
 #introheadparallax{
     background-image: url(img/BlueberrySmoothieBowl2.jpg);
     height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /*
@@ -54,7 +58,6 @@ hr{
 
 #mhhours{
     color: #BA55D3;
-
 }
 
 /*
@@ -67,7 +70,6 @@ hr{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-blend-mode: screen;
 }
 
 #ctah1{
@@ -80,7 +82,7 @@ hr{
 #ctap{
     color: black;
     font-family: 'Roboto', sans-serif;
-    font-size: 30px;
+    font-size: 24px;
 }
 
 /*
