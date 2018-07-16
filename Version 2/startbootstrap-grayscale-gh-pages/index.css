@@ -1,0 +1,52 @@
+/**
+---GLOBAL SETTINGS---
+*/
+
+body, html{
+    height: 100%;
+}
+
+hr{
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #BA55D3;
+    margin: 1em 0;
+    padding: 0; 
+}
+
+/*
+---NAVBAR---
+*/
+
+/*
+---INTRO HEAD---
+*/
+.introheadparallax{
+    background-image: url(img/BlueberrySmoothieBowl2.jpg);
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media only screen and (max-device-width: 1366px) {
+    .introheadparallax {
+        background-attachment: scroll;
+    }
+}
+
+/*
+---MASTER HEAD---
+*/
+#headtext{
+    color: #BA55D3;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+}
+
+#mhhours{
+    color: #BA55D3;
+
+}
