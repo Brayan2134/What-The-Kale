@@ -15,6 +15,22 @@ hr{
     padding: 0; 
 }
 
+.parallax{
+    background-image: url(#);
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
 /*
 ---NAVBAR---
 */
@@ -22,7 +38,7 @@ hr{
 /*
 ---INTRO HEAD---
 */
-.introheadparallax{
+#introheadparallax{
     background-image: url(img/BlueberrySmoothieBowl2.jpg);
     height: 100%;
     background-attachment: fixed;
@@ -32,7 +48,7 @@ hr{
 }
 
 @media only screen and (max-device-width: 1366px) {
-    .introheadparallax {
+    #introheadparallax {
         background-attachment: scroll;
     }
 }
@@ -49,4 +65,39 @@ hr{
 #mhhours{
     color: #BA55D3;
 
+}
+
+/*
+---CALL TO ACTION---
+*/
+#ctabg{
+    background-image: url(img/5677dfb0b5d8f3.86571719.jpg);
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: screen;
+}
+
+#ctah1{
+    text-align: center;
+    color: black;
+    margin-top: 100px;
+    font-size: 78px;
+}
+
+#ctap{
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+}
+
+/*
+---Announcements---
+*/
+
+#ahead{
+    color: #BA55D3;
+    font-weight: 300;
 }
