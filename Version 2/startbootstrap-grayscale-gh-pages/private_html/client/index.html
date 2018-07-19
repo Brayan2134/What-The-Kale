@@ -107,32 +107,28 @@
                     <h1 class="display-4">First Steps.</h1>
                     <p class="text-muted">Let's get to know you!</p>
                     <hr>
+                    <p class="lead">
+                        What is your name?
+                    </p>
                 </div>
 
-                <form method="POST" name="job" action="../server/action_page.php">
-                    <ul class="form-style-1">
-                            <li><label for="name">Full Name <span class="required">*</span></label><input type="text" name="name" class="field-divided" placeholder="First Name">
-                            </li>
-                            <li>
-                                <label for="email">Email <span class="required">*</span></label>
-                                <input type="email" name="email" class="field-long" placeholder="abc@gmail.com">
-                            </li>
-                            <li>
-                                <label>Subject</label>
-                                <select name="field4" class="field-select">
-                                <option value="Estimate">Free Estimate</option>
-                                <option value="General Question">General</option>
-                                </select>
-                            </li>
-                            <li>
-                                <label for="message">Your Message/Phone Number <span class="required">*</span></label>
-                                <textarea name="message" id="comment" class="field-long field-textarea"></textarea>
-                            </li>
-                            <li>
-                                <input type="submit" value="Submit" name="submit">
-                            </li>
-                        </ul>
-                </form>
+                <form name="submit-to-google-sheet">
+                    <input name="email" type="email" placeholder="Email" required>
+                    <button type="submit">Send</button>
+                  </form>
+
+                  <!--Send Form To Google Sheets!-->
+                  <script>
+                    const scriptURL = 'https://script.google.com/macros/s/AKfycbx0FqIZoDf3AiIt4ZALOkBOQmqk4wi37GM6wlGI91SeDsr0a_c/exec'
+                    const form = document.forms['submit-to-google-sheet']
+                  
+                    form.addEventListener('submit', e => {
+                      e.preventDefault()
+                      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                        .then(response => console.log('Success!', response))
+                        .catch(error => console.error('Error!', error.message))
+                    })
+                  </script>
             </div><!--Global Settings-->
         </div>
     </section>
