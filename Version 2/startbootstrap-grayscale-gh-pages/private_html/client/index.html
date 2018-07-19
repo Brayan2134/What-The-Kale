@@ -35,20 +35,104 @@
             <div class="row">
 
                 <!--Top-->
-                <div class="col-lg-12">
+                <div class="col-12">
                     <h1 class="display-4 text-center mt-3">Berry Smooth Job Application.</h1>
                     <hr>
                 </div>
 
                 <!--Main-->
-                <div class="col-lg-12">
+                <div class="col-12">
                     <p id="herop">
                         Welcome to the Berry Smooth
                         application page.
                         If you're here, then you'd like to receive a job,
                         via one of our openings.
+                        Click the buttons below to see what positions are available
+                        and the disclaimers! <br>
+                        <b>Note:</b>
+                        We will keep this data in a secure AES 256 Bit Encrypted
+                        AWS Server, so all data is VERY secure! <br>
+                        <b>Note:</b>
+                        If you attempt to fill out this form in Internet Explorer 9
+                        or earlier, this application will not be valid.
+                        If you are using Internet Explorer,
+                        it's recommended that you use Chrome, or Microsoft Edge. 
                     </p>
+                    <hr>
                 </div>
+
+                <!--Buttons-->
+                <div class="col-12">
+
+                    <!--What Is This Modal-->
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                        Job Openings.
+                    </button>
+      
+                    <!--Modal-->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Job Openings.</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <p class="text-center">
+                                    <i>Current Jobs:</i>
+                                    </p>
+                                    <p class="text-muted text-center">
+                                        Sorry! There's no jobs available!
+                                    </p>
+                                </div><!--End Modal Body-->
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                </div><!--Modal Footer-->
+                            </div>
+                        </div>
+                    </div>
+                </div><!--End Div-->
+            </div><!--Global Settings-->
+        </div>
+    </section>
+
+    <!--Form-->
+    <section class="form">
+        <div class="container mt-5">
+            <div class="row">
+                <!--Intro-->
+                <div class="col-12">
+                    <h1 class="display-4">First Steps.</h1>
+                    <p class="text-muted">Let's get to know you!</p>
+                    <hr>
+                </div>
+
+                <form method="POST" name="job" action="../server/action_page.php">
+                    <ul class="form-style-1">
+                            <li><label for="name">Full Name <span class="required">*</span></label><input type="text" name="name" class="field-divided" placeholder="First Name">
+                            </li>
+                            <li>
+                                <label for="email">Email <span class="required">*</span></label>
+                                <input type="email" name="email" class="field-long" placeholder="abc@gmail.com">
+                            </li>
+                            <li>
+                                <label>Subject</label>
+                                <select name="field4" class="field-select">
+                                <option value="Estimate">Free Estimate</option>
+                                <option value="General Question">General</option>
+                                </select>
+                            </li>
+                            <li>
+                                <label for="message">Your Message/Phone Number <span class="required">*</span></label>
+                                <textarea name="message" id="comment" class="field-long field-textarea"></textarea>
+                            </li>
+                            <li>
+                                <input type="submit" value="Submit" name="submit">
+                            </li>
+                        </ul>
+                </form>
             </div><!--Global Settings-->
         </div>
     </section>
