@@ -19,6 +19,15 @@ h1,h2,h3,h4,h5,h6{
     text-transform:uppercase
 }
 
+@media screen and (max-width: 381px){
+    h1,h2,h3,h4,h5,h6{
+        font-family:Cabin,'Helvetica Neue',Helvetica,Arial,sans-serif;
+        font-weight:700;
+        letter-spacing:1px;
+        text-transform:uppercase
+    }
+}
+
 p{
     font-size:16px;
     line-height:1.5;
@@ -286,4 +295,3 @@ a:focus,a:hover{
 #foot-link{
     color: mediumspringgreen;
 }
-
