@@ -71,3 +71,11 @@ button[type=submit] {
 button[type=submit]:hover {
   background-color: rgb(24, 24, 24);
 }
+
+/*
+Footer
+*/
+#footerbg{
+  background: rgb(24, 24, 24);
+  color: mediumspringgreen;
+}
