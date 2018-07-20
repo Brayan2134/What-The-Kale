@@ -65,7 +65,7 @@
                 </div>
 
                 <!--Button-->
-                <div class="col-10">
+                <div class="col-12">
 
                     <!--Job Openings Modal-->
                     <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
@@ -96,10 +96,8 @@
                             </div>
                         </div>
                     </div>
-                </div>
 
                     <!--Button-->
-                    <div class="col-2">
                         <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#modal1">
                             Privacy Policy.
                         </button>
@@ -137,12 +135,39 @@
                                             In order for us to receive data,
                                             we don't actively search for data,
                                             like other companies would.
+                                            Since we don't collect data,
+                                            we need for you to input more information
+                                            than what you're used to.
+                                            Don't worry, we get that some of the information
+                                            is really personal, and you don't want that to be shared.
+                                            Because of this,
+                                            we made some of the fields optional,
+                                            so you can feel safe giving out only the information you want.
+                                            There is a downside of us having less information.
+                                            If one of the methods of contact doesn't work,
+                                            then there isn't another way to contact you and we can't 
+                                            really hire you.
                                         </p>
 
                                         <!--Sending Info-->
                                         <h2 class="text-left">
                                             2) Sending The Information.
                                         </h2>
+                                        <hr>
+                                        <p class="text-muted text-justify">
+                                            When you click the send button,
+                                            you should be redirected to another page confirming the submission.
+                                            In some known cases, overload of the application process,
+                                            may send the information without confirmation.
+                                            This does not mean that we're keylogging,
+                                            rather that the page that you should go to after
+                                            pushing the send button is overloaded.
+                                            This does mean that we still received your information,
+                                            but you just don't know.
+                                            When you send the information, you are sending it through AWS (Amazon Web Services).
+                                            Because of it's API's which we have used,
+
+                                        </p>
 
                                         <!--Manipulation-->
                                         <h2 class="text-left">
@@ -186,7 +211,7 @@
                 </div>
 
                 <div class="col-12" id="form">
-                <form name="submit-to-google-sheet">
+                <form name="submit-to-google-sheet" onsubmit="return redirect()">
                     <!--First Name-->
                     <h1 id="formh1">
                         First Name:
@@ -280,6 +305,14 @@
                         .then(response => console.log('Success!', response))
                         .catch(error => console.error('Error!', error.message))
                     })
+                  </script>
+
+                  <!--Redirect-->
+                  <script>
+                    function redirect() {
+                        window.location.replace("afterpost.html");
+                        return false;
+                      }
                   </script>
             </div><!--Global Settings-->
         </div>
