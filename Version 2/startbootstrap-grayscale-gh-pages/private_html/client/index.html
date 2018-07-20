@@ -23,6 +23,9 @@
 </head>
 <body>
 
+    <!--Loading Bar-->
+    <div id="loader"></div>
+
     <!--Navbar-->
     <div class="container-fluid" id="navbarmain">
         <div class="row">
@@ -117,6 +120,7 @@
                     </p>
                 </div>
 
+                <div class="col-12" id="form">
                 <form name="submit-to-google-sheet">
                     <!--First Name-->
                     <h1 id="formh1">
@@ -176,20 +180,29 @@
                     <h1 id="formh1">
                         Email:
                     </h1>
-                    <input name="email" type="email" placeholder="123@example.com">
+                    <input required name="email" type="email" placeholder="123@example.com">
                     
                     <!--Date Available-->
                     <h1 id="formh1">
                         Starting Date:
                     </h1>
-                    <input name="date-available" type="text" placeholder="Starting Date: September, 4"
+                    <input name="date-available" type="text" placeholder="Starting Date: September, 4">
 
                     <!--Desired Salary-->
+                    <h1 id="formh1">
+                        Desired Salary:
+                    </h1>
+                    <input name="desired-salary" type="text" placeholder="Desired Salary: $10.25">
 
                     <!--Position Applied For-->
+                    <h1 id="formh1">
+                        Position Requested:
+                    </h1>
+                    <input name="position-requested" type="text" placeholder="Position Requested: Cashier">
                     
                     <button type="submit">Submit</button> 
                 </form>
+                </div>
 
                   <!--Send Form To Google Sheets!-->
                   <script>
@@ -213,6 +226,8 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
 
     <!--Custom JS-->
-    <link rel="stylesheet" href="../server/form.js">
+    <script src="../server/form.js"></script>
+
+    <!--Spinner Prior Page Load-->
 </body>
 </html>
