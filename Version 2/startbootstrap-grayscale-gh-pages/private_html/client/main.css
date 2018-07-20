@@ -7,7 +7,6 @@ Navbar
 */
 #navbarmain{
   background: #F0F0F0;
-  display: none;
 }
 
 /*
@@ -28,6 +27,8 @@ Form
 
 #formh1{
   text-align: left;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 300;
 }
 
 #formp{
@@ -53,4 +54,20 @@ input[type="email"]{
   border: 1px solid #ccc;
   border-radius: 4px;
   box-sizing: border-box;
+}
+
+button[type=submit] {
+  width: 100%;
+  background-color:#BA55D3;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button[type=submit]:hover {
+  background-color: rgb(24, 24, 24);
 }
