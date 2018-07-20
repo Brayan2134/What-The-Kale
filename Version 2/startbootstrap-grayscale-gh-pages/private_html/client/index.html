@@ -15,11 +15,6 @@
     <!--Open SANS Font-->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 
-    <!--Polyfill-->
-    <script src="https://wzrd.in/standalone/formdata-polyfill"></script>
-    <script src="https://wzrd.in/standalone/promise-polyfill@latest"></script>
-    <script src="https://wzrd.in/standalone/whatwg-fetch@latest"></script>
-
 </head>
 <body>
 
@@ -69,15 +64,15 @@
                     <hr>
                 </div>
 
-                <!--Buttons-->
-                <div class="col-12">
+                <!--Button-->
+                <div class="col-10">
 
-                    <!--What Is This Modal-->
+                    <!--Job Openings Modal-->
                     <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
                         Job Openings.
                     </button>
       
-                    <!--Modal-->
+                    <!--Job Openings Modal-->
                     <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                         <div class="modal-dialog" role="document">
                             <div class="modal-content">
@@ -98,6 +93,76 @@
                                 <div class="modal-footer">
                                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                                 </div><!--Modal Footer-->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                    <!--Button-->
+                    <div class="col-2">
+                        <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#modal1">
+                            Privacy Policy.
+                        </button>
+
+                        <div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="modal1" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="modal1">Privacy Policy</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p class="text-center">
+                                        <i>Data Protection.</i>
+                                        </p>
+                                        <p class="text-muted text-center">
+                                            We know that information is private.
+                                            We at Berry Smooth agree with that,
+                                            and believe that it should remain that way!
+                                            Because of this, we took steps to protect and discard
+                                            your data.
+                                            We've split this modal into sections,
+                                            so you can see how your data is used
+                                            and how we manipulate the data.
+                                        </p>
+
+                                        <!--Input-->
+                                        <h2 class="text-left">
+                                            1) Input.
+                                        </h2>
+                                        <hr>
+                                        <p class="text-muted text-justify">
+                                            In order for us to receive data,
+                                            we don't actively search for data,
+                                            like other companies would.
+                                        </p>
+
+                                        <!--Sending Info-->
+                                        <h2 class="text-left">
+                                            2) Sending The Information.
+                                        </h2>
+
+                                        <!--Manipulation-->
+                                        <h2 class="text-left">
+                                            3) Manipulation of Data.
+                                        </h2>
+
+                                        <!--Discarding of Data-->
+                                        <h2 class="text-left">
+                                            4) Discarding Data.
+                                        </h2>
+
+                                        <!--Summary-->
+                                        <h2 class="text-left">
+                                            Summary.
+                                        </h2>
+                                    </div><!--End Modal Body-->
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                    </div><!--Modal Footer-->
+                                </div>
                             </div>
                         </div>
                     </div>
