@@ -469,3 +469,11 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
   width: 40px;
   height: 40px;
 }
+
+#modal1img:hover{
+  opacity: 0.5;
+}
+
+#product{
+  background: #E6E6FA;
+}
