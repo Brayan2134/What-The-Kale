@@ -9,6 +9,7 @@ body {
 }
 
 a {
+  color: mediumseagreen;
   width: 100%;
   height: 100%;
   -webkit-transition: all .35s;
