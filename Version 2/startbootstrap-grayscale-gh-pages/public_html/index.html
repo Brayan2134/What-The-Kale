@@ -45,7 +45,13 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#product">Product</a>
+              <a href="#" class="nav-link">Menu</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">About</a>
+              </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#product">Products</a>
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#features">Features</a>
@@ -82,45 +88,58 @@
       <div class="container">
         <div class="row">
           <div class="col-12">
-            <h1 class="text-center">Products.</h1>
+            <h1 class="text-center mb-4">Products.</h1>
           </div>
-
-          <!--Modal 1-->
           <div class="col-lg-6 col-md-6 col-sm-12">
-
-            <!-- Trigger -->
-            <a data-target="#modal1" data-toggle="modal" id="modal1img">
-              <img src="img/smoothiebowls/showcase/Pitaya Art/IMG_8056.jpg" class="col-lg-12">
-            </a>
-
-            <!--Content For Modal-->
-            <div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="modal1" aria-hidden="true">
-              <div class="modal-dialog modal-dialog-centered" role="document">
+            <!--Click To Enlarge IMG-->
+            <div class="modal fade" id="enlargeImageModal" tabindex="-1" role="dialog" aria-labelledby="enlargeImageModal" aria-hidden="true">
+              <div class="modal-dialog modal-lg" role="document">
                 <div class="modal-content">
                   <div class="modal-header">
-                    <h5 class="modal-title" id="modal1">Smoothiebowls!</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                      <span aria-hidden="true">&times;</span>
-                    </button>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&#xD7;</span></button>
                   </div>
                   <div class="modal-body">
-                    ...
-                  </div>
-                  <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <img src="" class="enlargeImageModalSource" style="width: 100%;">
                   </div>
                 </div>
               </div>
-            </div><!--End Modal-->
+            </div>
+            <div class="container">
+              <img src="img/smoothiebowls/showcase/Pitaya Art/IMG_8056.jpg" class="col-lg-12">
+            </div>
             <h4 class="text-center text-muted mt-4">
               Click picture to expand.
             </h4>
+            <p class="text-center text-muted">
+              <i>Pitaya Art - Regular</i>
+            </p>
           </div><!--End Left Half-->
 
           <!--Right Side-->
           <div class="col-lg-6 col-md-6 col-sm-12">
-
+            <h2 class="text-center">
+              Smoothiebowls.
+            </h2>
+            <p class="text-justify">
+              Smoothiebowls are the bread and butter at 
+              Berry Smooth!
+              We believe that good food shouldn't just be about taste,
+              but also about the visual quality.
+              We only produce food that the average person
+              could attain.
+            </p>
           </div><!--End Right Side-->
+        </div>
+      </div>
+    </section>
+
+    <!--Testimonials-->
+    <section class="testimonial" id="testimonial">
+      <div class="container-fluid" id="testimonialbg">
+        <div class="row">
+          <div class="container">
+            <h2 class="text-center">Testimonials.</h2>
+          </div>
         </div>
       </div>
     </section>
@@ -149,9 +168,10 @@
           </div>
           <div class="col-lg-6 col-md-6 col-sm-12">
             <h3 class="text-center">
-              Hours: <br>
+              <b>
+              Hours:
+              </b>
             </h3>
-            <hr>
             <h3 class="text-center">
               Monday - Friday: 8am-8pm <br>
               Saturday: 9am-7pm <br>
@@ -188,6 +208,7 @@
                   <a href="https://www.facebook.com/Berry-Smooth-322827011589299/">
                     We're Also On Facebook!</a></h4>
                 </span>
+                <br>
             </div>
           </div>
         </div>
@@ -215,6 +236,9 @@
 
   <!-- Custom scripts -->
   <script src="js/new-age.min.js"></script>
+
+  <!--Modal IMG-->
+  <script src="js/imgmodal.js"></script>
 
   </body>
 

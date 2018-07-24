@@ -477,3 +477,11 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 #product{
   background: #E6E6FA;
 }
+
+img {
+  cursor: zoom-in;
+}
+
+#testimonialbg{
+  background: #b19cd9;
+}
