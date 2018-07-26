@@ -1,0 +1,16 @@
+body{
+    background: #F0F0F0;
+    font-family: 'Raleway', sans-serif;
+}
+
+#noredirect{
+    margin-top: 20vh;
+}
+
+
+a:hover{
+    color: #DA70D6;
+    transition: .25s ease-in-out;
+    -moz-transition: .25s ease-in-out;
+    -webkit-transition: .25s ease-in-out;
+}
