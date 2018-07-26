@@ -29,6 +29,14 @@ a:hover {
   color: #f05f40;
 }
 
+#copyright{
+  color: whitesmoke;
+}
+
+#copyright-container{
+  background: rgb(24, 24, 24);
+}
+
 h1,
 h2,
 h3,
@@ -51,7 +59,7 @@ h6 {
 }
 
 .intro-text{
-  color: black;
+  color: white;
   font-weight: 500;
 }
 
