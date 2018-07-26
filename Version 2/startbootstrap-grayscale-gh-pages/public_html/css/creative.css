@@ -11,7 +11,7 @@ body {
 hr {
   max-width: 50px;
   border-width: 3px;
-  border-color: #F05F40;
+  border-color: #DA70D6;
 }
 
 hr.light {
@@ -48,6 +48,15 @@ h6 {
 
 .text-faded {
   color: rgba(255, 255, 255, 0.7);
+}
+
+.intro-text{
+  color: black;
+  font-weight: 500;
+}
+
+.masthead-intro{
+  color: #9400D3;
 }
 
 section {
@@ -89,10 +98,16 @@ img::-moz-selection {
   transition: all 0.2s;
 }
 
+#logo{
+  height: 55px;
+  width: 140px;
+  margin-top:0; 
+  
+}
+
 #mainNav .navbar-brand {
   font-weight: 700;
   text-transform: uppercase;
-  color: #F05F40;
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 }
 
@@ -169,7 +184,7 @@ img::-moz-selection {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 56px);
-  background-image: url("../img/header.jpg");
+  background-image: url("../img/home/SS2.jpg");
   background-position: center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -298,13 +313,13 @@ header.masthead p {
 }
 
 .btn-primary {
-  background-color: #F05F40;
-  border-color: #F05F40;
+  background-color: #DDA0DD;
+  color: rgb(24, 24, 24);
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
   color: #fff;
-  background-color: #ee4b28 !important;
+  background-color: #BA55D3 !important;
 }
 
 .btn-primary:active, .btn-primary:focus {
