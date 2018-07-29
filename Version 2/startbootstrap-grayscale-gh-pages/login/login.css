@@ -1,0 +1,17 @@
+body, html{
+    height: 100%;
+    background: #E0E0E0;
+}
+
+#background{
+    background: #E0E0E0;
+}
+
+#logincontainer{
+    margin-top: 15vh;
+    background: white;
+}
+
+#topsectionlogin{
+    margin-top: 5vh;
+}
