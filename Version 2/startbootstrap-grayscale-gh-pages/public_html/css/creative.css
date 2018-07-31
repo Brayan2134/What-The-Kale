@@ -8,6 +8,10 @@ body {
   font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
 }
 
+.center-block{
+  float:none;
+}
+
 hr {
   max-width: 50px;
   border-width: 3px;
@@ -334,6 +338,27 @@ header.masthead p {
   box-shadow: 0 0 0 0.2rem rgba(240, 95, 64, 0.5) !important;
 }
 
+.btn-cta{
+  color: #A071A7;
+  background: #4C0F54;
+  border-radius: 2px;
+}
+
+.btn-cta:hover, .btn-cta:focus, .btn-cta:active{
+  color: white;
+  background: #AA71A7;
+}
+
+.btn-action{
+  background: rgb(24, 24, 24);
+  color: white;
+}
+
 #product-smoothies{
-  background: #F0CBFE;
+  background: #F5F5F5;
+}
+
+.slogan{
+  font-style: italic;
+  color: lightslategrey;
 }
