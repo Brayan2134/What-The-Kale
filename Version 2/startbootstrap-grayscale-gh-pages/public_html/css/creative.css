@@ -33,6 +33,17 @@ a:hover {
   color: #BA55D3;
 }
 
+#logoa{
+  color: #212529;
+}
+
+@media (max-width: 768px){
+  #logoimg{
+    width: 32px;
+    height: 32px;
+  }
+}
+
 #copyright{
   color: whitesmoke;
 }
@@ -361,4 +372,8 @@ header.masthead p {
 .slogan{
   font-style: italic;
   color: lightslategrey;
+}
+
+#smoothieproduct{
+  background: #EEEEEE;
 }
