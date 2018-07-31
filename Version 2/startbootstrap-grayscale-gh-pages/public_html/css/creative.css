@@ -83,7 +83,7 @@ h6 {
 }
 
 section {
-  padding: 8rem 0;
+  padding: 2rem 0;
 }
 
 .section-heading {
@@ -376,4 +376,9 @@ header.masthead p {
 
 #smoothieproduct{
   background: #EEEEEE;
+  margin-bottom: 0;
+}
+
+.cta{
+  background: #A3CEDC;
 }
