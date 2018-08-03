@@ -29,6 +29,20 @@ a {
   transition: all 0.4s;
 }
 
+a.acontact{
+  color: #212529;
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+a.acontact:hover{
+  color: grey;
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
 a:hover {
   color: #BA55D3;
 }
@@ -385,4 +399,8 @@ header.masthead p {
 
 .cta{
   background: #A3CEDC;
+}
+
+#cfbg{
+  background: #F5F5F5;
 }
