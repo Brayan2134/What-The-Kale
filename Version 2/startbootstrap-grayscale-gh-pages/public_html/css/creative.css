@@ -404,3 +404,9 @@ header.masthead p {
 #cfbg{
   background: #F5F5F5;
 }
+
+.recommended{
+  font-style: italic;
+  color: maroon;
+  text-align: center;
+}
