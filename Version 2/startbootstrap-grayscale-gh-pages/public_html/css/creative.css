@@ -410,3 +410,13 @@ header.masthead p {
   color: maroon;
   text-align: center;
 }
+
+.productplace:hover{
+  opacity: 0.3;
+  -webkit-transition: 0.3s all;
+  -moz-transition: 0.3s all; 
+}
+
+.producthead{
+  margin-top: 17vh;
+}
