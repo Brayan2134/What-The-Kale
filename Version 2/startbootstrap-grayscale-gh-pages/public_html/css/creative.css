@@ -420,3 +420,22 @@ header.masthead p {
 .producthead{
   margin-top: 17vh;
 }
+
+.productname{
+  font-family: 'Raleway', sans-serif;
+  font-size: 8vh;
+}
+
+.productprice{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 38px;
+}
+
+.productdesc{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+}
+
+.bodybg{
+  background: #F8F8F8;
+}
