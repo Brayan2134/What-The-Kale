@@ -415,6 +415,7 @@ header.masthead p {
   opacity: 0.3;
   -webkit-transition: 0.3s all;
   -moz-transition: 0.3s all; 
+  transition: all 0.3s;
 }
 
 .producthead{
