@@ -439,3 +439,27 @@ header.masthead p {
 .bodybg{
   background: #F8F8F8;
 }
+
+.card{
+  color: #9400D3;
+}
+
+.btn-link{
+  color: #9400D3;
+}
+
+.btn-link:hover{
+  color: gray;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.card-body{
+  color: black;
+}
+
+footer{
+  background: rgb(24, 24, 24);
+  color: white;
+}
