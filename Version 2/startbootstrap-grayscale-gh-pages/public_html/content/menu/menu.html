@@ -550,16 +550,29 @@
                 <p class="text-center text-muted">
                     <i>Pick One, Optional.</i>
                 </p>
-                <h4 class="text-justify">
-                    - Kale <br>
-                    - Spinach <br>
-                    - Celery <br>
-                    - Brocoli <br>
-                    - Beet <br>
-                    - Carrot <br>
-                    - Cucumber <br>
-                    - Romaine Lettuce <br>
-                </h4>
+                <div class="accordion" id="accordionFour">
+                    <div class="card">
+                        <div class="card-header" id="headingVeggies">
+                            <h5 class="mb-0 text-center">
+                                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseVeggies" aria-expanded="true" aria-controls="collapseVeggies">
+                                    Veggies.
+                                </button>
+                            </h5>
+                        </div>
+                    </div>
+                    <div id="collapseVeggies" class="collapse hide" aria-labelledby="headingVeggies" data-parent="#accordion">
+                        <div class="card-body">
+                                - Kale <br>
+                                - Spinach <br>
+                                - Celery <br>
+                                - Brocoli <br>
+                                - Beet <br>
+                                - Carrot <br>
+                                - Cucumber <br>
+                                - Romaine Lettuce <br>
+                        </div>
+                    </div>
+                </div><!--End Accordion-->
             </div>
 
             <!--Thicken Up-->
@@ -570,17 +583,28 @@
                 <p class="text-center text-muted">
                     <i>Pick One, Optional.</i>
                 </p>
-                <h4 class="text-justify">
-                    - Yogurt <br>
-                    - Nut Butter
-                </h4>
-                <p class="text-muted">
-                    <i>Peanut Or Almond.</i>
-                </p>
-                <h4 class="text-justify">
-                    - Coconut Meat <br>
-                    - Oatmeal <br>
-                </h4>
+                <div class="accordion" id="accordionFive">
+                    <div class="card">
+                        <div class="card-header" id="headingThick">
+                            <h5 class="mb-0 text-center">
+                                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseThick" aria-expanded="true" aria-controls="collapseThick">
+                                    Thicken Up.
+                                </button>
+                            </h5>
+                        </div>
+                    </div>
+                    <div id="collapseThick" class="collapse hide" aria-labelledby="headingThick" data-parent="#accordion">
+                        <div class="card-body">
+                            - Yogurt <br>
+                            - Nut Butter <br>
+                            <p class="text-muted mb-0">
+                                <i>Peanut Or Almond.</i>
+                            </p>
+                            - Coconut Meat <br>
+                            - Oatmeal <br>
+                        </div>
+                    </div>
+                </div><!--End Accordion-->
             </div>
 
             <!--Power Boost-->
