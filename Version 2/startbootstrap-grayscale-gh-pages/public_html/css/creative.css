@@ -491,3 +491,21 @@ footer{
 #item{
   color: black;
 }
+
+#contactus{
+  color: black;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+}
+
+#svg{
+  display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+  height: 50px;
+  width: 50px;
+}
+
+.banner{
+  text-align: center;
+}
