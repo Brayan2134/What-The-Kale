@@ -287,3 +287,11 @@ a:focus,a:hover{
     color: mediumspringgreen;
 }
 
+.btn-cta{
+    background: rgb(216, 43, 216);
+    color: white;
+}
+
+#bowl{
+    color: white;
+}

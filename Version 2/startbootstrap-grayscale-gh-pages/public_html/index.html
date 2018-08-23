@@ -312,10 +312,34 @@
             </li>
           </ul>
           </div>
-
       </div>
     </div>
   </section>
+
+
+  <div class="modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title text-center">Important Announcement!</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <h4>Buy one large bowl, get one half off!</h4>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-cta">
+            <a href="#contact" id="bowl">  
+              Get One Now!
+            </a>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <!--Map Section-->
   <div id="map">
@@ -334,6 +358,12 @@
   <!--Custom JS Scripts-->
   <script src="js/grayscale.min.js"></script>
   <script src="js/newtab.js"></script>
+
+  <script type="text/javascript">
+    $(window).on('load',function(){
+      $('.modal').modal('show');
+    });
+  </script>
 
 </body>
 <footer>
