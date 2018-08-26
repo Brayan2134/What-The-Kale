@@ -64,7 +64,7 @@ a:hover {
 }
 
 #copyright-container{
-  background: rgb(24, 24, 24);
+  background: #1b1b1b;
 }
 
 h1,
@@ -500,10 +500,10 @@ footer{
 
 #svg{
   display: inline-block;
-    margin-left: auto;
-    margin-right: auto;
-  height: 50px;
-  width: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 40px;
+  width: 40px;
 }
 
 .banner{
