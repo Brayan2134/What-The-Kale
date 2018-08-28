@@ -509,3 +509,8 @@ footer{
 .banner{
   text-align: center;
 }
+
+#form-intro{
+  font-size: 18px;
+  font-family: 'Source Sans Pro', sans-serif;
+}

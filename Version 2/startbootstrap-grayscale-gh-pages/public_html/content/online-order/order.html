@@ -14,6 +14,7 @@
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
 
     <!--Plugin CSS-->
     <link href="../../vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
@@ -67,7 +68,35 @@
 
     <div class="container">
         <div class="row">
-
+            <div class="col-12">
+                <h1 class="text-center mt-5 producthead">
+                    Order Online!
+                </h1>
+                <p id="form-intro">
+                    Are you looking for a quick and easy way to get your food faster?
+                    Just order online! Click one of the options below and receive it once you get to Berry Smooth!
+                </p>
+                <hr>
+            </div>
+            <!--Form-->
+            <form method="post" action="send_mail.php">
+                    <p>
+                    <label>First Name
+                    <input type="text" name="first_name" required>
+                    </label> 
+                    </p>
+                    <p>
+                    <label>Email 
+                    <input type="email" name="email_address">
+                    </label>
+                    </p>
+                    <p>
+                    <label>Comments
+                    <textarea name="comments" maxlength="500"></textarea>
+                    </label>
+                    </p>
+                    <p><button>Submit the form</button></p>
+            </form>                
         </div>
     </div>
 
