@@ -21,6 +21,7 @@
 
     <!--Custom styles-->
     <link href="../../css/creative.css" rel="stylesheet">
+
 </head>
 <body id="page-top">
     
@@ -66,39 +67,77 @@
         </div>
     </header>
 
-    <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <h1 class="text-center mt-5 producthead">
-                    Order Online!
-                </h1>
-                <p id="form-intro">
-                    Are you looking for a quick and easy way to get your food faster?
-                    Just order online! Click one of the options below and receive it once you get to Berry Smooth!
-                </p>
-                <hr>
+    <section class="form">
+        <div class="container">
+            <div class="row">
+                <!--Header-->
+                <div class="col-12">
+                    <h1 class="text-center" id="formtitle">
+                        Order Delicious Bowls & Drinks
+                        Online!
+                    </h1>
+                    <h5 class="text-center text-muted">
+                        Ordering Delicious And Healthy Drinks Has Never Been This Easy.
+                    </h5>
+                </div>
+                <!--Contact Information-->
+                <div class="col-12">
+                    <h3 class="text-muted mt-4" id="formtitle">
+                        Contact Information.
+                    </h3>
+                </div>
+                <form name="contactform" method="post" action="send_mail.php">
+                    <table width="100%">
+                    <tr>
+                     <td valign="top">
+                      <label for="first_name">First Name *</label>
+                     </td>
+                     <td valign="top">
+                      <input  type="text" name="first_name" maxlength="50" size="30">
+                     </td>
+                    </tr>
+                    <tr>
+                     <td valign="top"">
+                      <label for="last_name">Last Name *</label>
+                     </td>
+                     <td valign="top">
+                      <input  type="text" name="last_name" maxlength="50" size="30">
+                     </td>
+                    </tr>
+                    <tr>
+                     <td valign="top">
+                      <label for="email">Email Address *</label>
+                     </td>
+                     <td valign="top">
+                      <input  type="text" name="email" maxlength="80" size="30">
+                     </td>
+                    </tr>
+                    <tr>
+                     <td valign="top">
+                      <label for="telephone">Telephone Number</label>
+                     </td>
+                     <td valign="top">
+                      <input  type="text" name="telephone" maxlength="30" size="30">
+                     </td>
+                    </tr>
+                    <tr>
+                     <td valign="top">
+                      <label for="comments">Order *</label>
+                     </td>
+                     <td valign="top">
+                      <textarea  name="comments" maxlength="1000" cols="25" rows="6"></textarea>
+                     </td>
+                    </tr>
+                    <tr>
+                     <td colspan="2" style="text-align:right">
+                      <input type="submit" value="Submit"> 
+                     </td>
+                    </tr>
+                    </table>
+                    </form>
             </div>
-            <!--Form-->
-            <form method="post" action="send_mail.php">
-                    <p>
-                    <label>First Name
-                    <input type="text" name="first_name" required>
-                    </label> 
-                    </p>
-                    <p>
-                    <label>Email 
-                    <input type="email" name="email_address">
-                    </label>
-                    </p>
-                    <p>
-                    <label>Comments
-                    <textarea name="comments" maxlength="500"></textarea>
-                    </label>
-                    </p>
-                    <p><button>Submit the form</button></p>
-            </form>                
         </div>
-    </div>
+    </section>
 
     <!-- Bootstrap core JavaScript -->
     <script src="../../vendor/jquery/jquery.min.js"></script>
