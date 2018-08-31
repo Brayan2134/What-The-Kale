@@ -180,6 +180,14 @@ a:focus, a:hover {
   font-size: 10vh;
 }
 
+#intro-2{
+  text-align: center;
+  color: #DA70D6;
+  margin-top: 20vh;
+  margin-bottom: 20vh;
+  font-size: 10vh; 
+}
+
 #about-section-header{
   color: black;
   font-family: 'Source Sans Pro', sans-serif;
@@ -188,4 +196,8 @@ a:focus, a:hover {
 
 #about-section-description{
   color: rgba(128, 128, 128, 0.9);
+}
+
+.lightgreen{
+  color: #72bb75;
 }
