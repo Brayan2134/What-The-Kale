@@ -201,3 +201,24 @@ a:focus, a:hover {
 .lightgreen{
   color: #72bb75;
 }
+
+.instagram-social-media-footer{
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 32px;
+  width: 32px; 
+}
+
+#social-media-footer-header{
+  font-size: 18px;
+  text-align: center;
+}
+
+.facebook-social-media-footer{
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 32px;
+  width: 32px; 
+}
