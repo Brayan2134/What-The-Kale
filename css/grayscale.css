@@ -238,5 +238,11 @@ a:focus, a:hover {
 }
 
 #menu-section-menu-item{
-  font-family: 'Noto Sans', sans-serif;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+#menu-section-bowls-header{
+  font-family: 'Fjalla One', sans-serif;
+  font-weight: 600;
+  font-size: 21px;
 }
