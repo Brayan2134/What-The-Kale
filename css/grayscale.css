@@ -222,3 +222,27 @@ a:focus, a:hover {
   height: 32px;
   width: 32px; 
 }
+
+.banner{
+  text-align: center;
+}
+
+.copyright-logo{
+  color: #9999cc;
+}
+
+#nav-logo{
+  height: 55px;
+  width: 140px;
+  margin-top:0;  
+}
+
+#menu-section-menu-item{
+  font-family: 'Fira Sans', sans-serif;
+}
+
+#menu-section-bowls-header{
+  font-family: 'Fjalla One', sans-serif;
+  font-weight: 600;
+  font-size: 21px;
+}
