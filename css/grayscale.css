@@ -132,7 +132,6 @@
 }
 
 .btn {
-  box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
   padding: 1.25rem 2rem;
   font-family: 'Varela Round';
   font-size: 80%;
@@ -245,4 +244,31 @@ a:focus, a:hover {
   font-family: 'Fjalla One', sans-serif;
   font-weight: 600;
   font-size: 21px;
+}
+
+#byo-cta-header{
+  padding: 15vh 0 0;
+  font-family: 'Raleway', sans-serif;
+  font-size: 8vh;
+}
+
+#byo-cta-p{
+  margin-top: 5vh;
+  font-weight: 300;
+  font-family: 'Raleway', sans-serif;
+  font-size: 3vh;
+}
+
+.btn-cta-byo{
+  box-shadow: 0;
+  color: black;
+  background: white;
+  border: 1px solid black;
+}
+
+.btn-cta-byo:hover{
+  box-shadow: 0;
+  color: white;
+  background: rgb(24, 24, 24);
+  border: 1px solid black;
 }
