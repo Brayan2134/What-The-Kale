@@ -246,3 +246,28 @@ a:focus, a:hover {
   font-weight: 600;
   font-size: 21px;
 }
+
+#h1-section-byo-heading{
+  margin-top: 15vh;
+  font-size: 7vh;
+}
+
+#h4-section-byo-subheading{
+  margin-bottom: 5vh;
+}
+
+.btn-cta-byo{
+  background: black;
+  color: white;
+  text-align: center;
+  display: block;
+  margin-bottom: 15vh;
+}
+
+.btn-cta-byo:hover{
+  background: white;
+  color: black;
+  transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+}
